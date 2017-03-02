@@ -1,0 +1,21 @@
+/*
+ * 数据浏览
+ */
+export const <%=name.toUpperCase()%>_LIST_GET = '<%=name.toUpperCase()%>_LIST_GET'
+export function get<%=name%>ListType(result) {
+    return {
+        type: <%=name.toUpperCase()%>_LIST_GET,
+        result: result
+    }
+}
+export function get<%=name%>List(opts, type) {
+    return (dispatch, getState) => {
+        var interFace = '/api/temp/getList';
+        return axios.post(interFace, opts)
+            .then(function (result) {
+                dispatch(get<%=name%>ListType(result.data))
+            }).catch(function (error) {
+                console.error("URL: " + interFace + error)
+            })
+    }
+}

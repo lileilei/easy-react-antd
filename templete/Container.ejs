@@ -1,0 +1,49 @@
+/**
+ * Created by lilei on <%=time%>.
+ */
+import React, {Component} from 'react'
+import {connect} from 'react-redux'
+
+import {} from './action'
+import {} from 'antd';
+
+import './style.scss'
+class <%=name%>Container extends Component {
+  constructor(props) {
+    super(props)
+    this.resize = this.resize.bind(this)
+    this.state = {
+      minHeight: 0
+    }
+  }
+
+  resize() {
+    this.setState({
+      minHeight: document.body.offsetHeight - 66
+    })
+  }
+
+  componentDidMount() {
+    this.resize()
+    Ewell.resizeFunc.push(this.resize)
+  }
+
+  componentWillUnmount() {
+    Ewell.clearResize()
+  }
+
+  render() {
+    return (
+      <div id="<%=name%>">
+        this is <%=name%> module page!
+      </div>
+    )
+  }
+}
+const mapDispatchtoProps = {}
+const mapStateToProps = (state) => {
+  return {
+    <%=name%>: state.get('<%=name%>').toJS()
+  }
+}
+export default connect(mapStateToProps, mapDispatchtoProps)(<%=name%>Container)

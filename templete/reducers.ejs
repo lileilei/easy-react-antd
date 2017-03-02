@@ -1,0 +1,15 @@
+import {List, fromJS} from 'immutable'
+import {<%=name.toUpperCase()%>_LIST_GET} from './action'
+const ACTION_HANDLERS = {
+  [<%=name.toUpperCase()%>_LIST_GET]: (state, action) => (
+    state.merge({...state})
+  )
+}
+
+const initialState = fromJS({
+  fecting: false
+})
+export default function Reducer(state = initialState, action) {
+  const handler = ACTION_HANDLERS[action.type]
+  return handler ? handler(state, action) : state
+}

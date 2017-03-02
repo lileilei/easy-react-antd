@@ -1,0 +1,26 @@
+import {injectReducer} from "<%=injectPath%>";
+<% children.forEach(function(name){ %>
+import <%=name%> from './routes/<%=name%>'
+<% }) %>
+export default (store) => ({
+  path: '<%=name%>',
+  getComponent (nextState, cb) {
+    require.ensure([], (require) => {
+      const page = require('./<%=name%>Container').default
+      const reducer = require('./reducers').default
+      injectReducer(store, {key: '<%=name%>', reducer})
+      cb(null, page)
+    })
+  },
+  <%if(onEnter!=""){%>
+  indexRoute: {
+    onEnter (nextState, replace) {
+      replace('<%=onEnter%>')
+    }
+  },
+  <%}%>
+  childRoutes: [
+  <% children.forEach(function(name){ %> <%=name%>(store),<% }) %>
+  ]
+})
+
