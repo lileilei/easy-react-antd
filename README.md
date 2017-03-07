@@ -6,3 +6,24 @@ $ coder name1 name2
 在src/routes 目录下新建项目模块地图文档例如 project.js
 $ coder --file project.js
 ```
+
+
+```javascript
+//project.js
+
+module.exports = {
+    project: 'dcms',//项目根目录名
+    server: {
+        children: {
+            module1: {},
+            module2: {}
+        }
+    },
+    server2: {
+        children: {
+            module1: {},
+            module2: {},
+        }
+    }
+}
+```
