@@ -20,9 +20,13 @@
   "license": "WTFPL",
   "dependencies": {
     "cli-color": "^1.2.0",
+    "commander": "^2.11.0",
     "debug": "^2.2.0",
     "ejs": "^2.5.6",
+    "fs-extra": "^4.0.0",
+    "inquirer": "^3.2.0",
     "object-assign": "^4.1.1",
+    "vinyl-fs": "^2.4.4",
     "yargs": "^6.6.0"
   },
   "devDependencies": {}

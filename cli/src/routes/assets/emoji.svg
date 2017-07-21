@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>输入框-表情</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="1"></circle>
+        <circle id="path-2" cx="18" cy="10" r="1"></circle>
+    </defs>
+    <g id="切片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="输入框-表情">
+            <g id="表情" transform="translate(1.000000, 1.000000)">
+                <ellipse id="Oval-6-Copy-2" stroke="#A5A5A5" cx="14" cy="14" rx="13.5" ry="13.5"></ellipse>
+                <g id="Oval-3">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#979797" stroke-width="1" cx="10" cy="10" r="1"></circle>
+                </g>
+                <g id="Oval-3-Copy">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <circle stroke="#979797" stroke-width="1" cx="18" cy="10" r="1"></circle>
+                </g>
+                <path d="M5.51446179,15.5 C5.84836107,15.5 6.36448966,15.5 7.8125,15.5 C10.625,15.5 10.625,15.5 14,15.5 C16.25,15.5 16.25,15.5 18.3333333,15.5 C21.2711267,15.5 21.8551119,15.5 22.4855376,15.5 C22.2267293,19.9616897 18.526573,23.5 14,23.5 C9.47342702,23.5 5.77327069,19.9616897 5.51446179,15.5 Z" id="Oval-6-Copy-3" stroke="#A5A5A5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

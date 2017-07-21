@@ -1,0 +1,46 @@
+一.ACTION 规范
+
+  1.ACTION
+    命名规范： 当前页面_功能模块_请求类型
+    例如： SERVICES_LIST_GET  解读：服务页面的列表请求
+    说明： 如果此模块列表请求类型多个 SERVICES_LIST_GET_TYPE
+
+  2.注释(数据类型简单，可只写功能即可)
+    /*
+     * 服务列表请求
+     * @param list.state (Boolean): 请求列表状态
+     * @param list.rows  (Array)  : 服务列表
+     * @param type (Number)       : 1.新服务 2.老服务
+     */
+    export const　SERVICES_LIST_GET = 'SERVICES_LIST_GET'
+    export function getServiceListType(list){
+      return {
+        type:SERVICES_LIST_GET,
+        list.state,
+        list.rows
+      }
+    }
+    export function getServiceList(opts,type){
+        return (dispatch, getState) => {
+          ...
+        }
+    }
+二.样式规范
+  1.每个页面必须一个页面id包裹，内部样式全部写的里面
+  2.能公用的不重复写
+  3.能用蚂蚁的样式不自己写样式
+
+--------------------------------华丽的分割线------------------------------------------
+三：文件以及文件夹命名规范
+
+import:目录结构为如下
+--------------assets文件夹:放当前路由的资源
+--------------components文件夹:存放自定义组件
+--------------container文件夹:当前页面的代码
+--------------style文件夹：当前页面引用的样式
+
+1：文件夹：如果是父路由一般以首字母大写命名，子路由以小写字母命名
+2：class命名：首字母一定要大写
+3: 样式文件夹统一样式文件为style.css
+
+

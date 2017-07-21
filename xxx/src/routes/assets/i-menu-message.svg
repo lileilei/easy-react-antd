@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>左侧导航栏_消息</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="切片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="左侧导航栏_消息">
+            <g id="Group-3" transform="translate(2.000000, 3.000000)">
+                <path d="M0,1.99406028 C0,0.892771196 0.889673948,0 1.991155,0 L20.008845,0 C21.1085295,0 22,0.894513756 22,1.99406028 L22,14.0059397 C22,15.1072288 21.0998238,16 20.007983,16 L11,16 L5.5,18.9963477 L5.5,16 L2.00118474,16 C0.895960926,16 0,15.1054862 0,14.0059397 L0,1.99406028 Z" id="Rectangle-11" stroke="#FFFFFF" stroke-width="2"></path>
+                <circle id="Oval-8" fill="#FFFFFF" cx="5" cy="8" r="2"></circle>
+                <circle id="Oval-8-Copy" fill="#FFFFFF" cx="11" cy="8" r="2"></circle>
+                <circle id="Oval-8-Copy-2" fill="#FFFFFF" cx="17" cy="8" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

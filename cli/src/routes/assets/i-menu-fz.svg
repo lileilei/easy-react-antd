@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>左侧导航栏_辅诊</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="切片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="左侧导航栏_辅诊" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-11" transform="translate(3.000000, 0.000000)">
+                <path d="M18.581581,15.7202826 C18.8533818,14.8620567 19,13.9481506 19,13 C19,8.02943725 14.9705627,4 10,4 C5.02943725,4 1,8.02943725 1,13 C1,17.9705627 5.02943725,22 10,22 L10,22 C11.3243787,22 12.5819444,21.7139397 13.71428,21.2002362" id="Oval"></path>
+                <path d="M10.8226211,2.98994093 C10.3166786,1.43386382 9.68315364,0.508701828 8.99560785,0.508701828 C7.3387536,0.508701828 5.99560785,5.88128483 5.99560785,12.5087018 C5.99560785,19.1361188 7.3387536,24.5087018 8.99560785,24.5087018 C9.65267168,24.5087018 10.2603985,23.6637545 10.7545832,22.2306802 C10.8648951,21.9107895 10.9695495,21.561594 11.0678323,21.1859503" id="Oval" transform="translate(8.531720, 12.508702) rotate(-330.000000) translate(-8.531720, -12.508702) "></path>
+                <circle id="Oval-4" cx="16.5" cy="18.5" r="3.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

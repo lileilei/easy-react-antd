@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>账号-修改密码</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="切片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="账号-修改密码" stroke="#A5A5A5">
+            <g id="密码" transform="translate(1.000000, 2.000000)">
+                <rect id="Rectangle-16" x="0.5" y="5" width="15" height="8.5" rx="2"></rect>
+                <path d="M2.96607777,4.37883674 L3,1.99201702 C3,0.891856397 3.89451376,0 4.99406028,0 L11.0059397,0 C12.1072288,0 13,0.900176167 13,1.99201702 L13,3.00798298" id="Rectangle-16-Copy" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="30px" viewBox="0 0 34 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>会诊-mdt按钮</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="切片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="会诊-mdt按钮">
+            <g id="Group-7" transform="translate(0.500000, 0.000000)">
+                <circle id="Oval-5" stroke="#FFFFFF" cx="15" cy="16" r="14"></circle>
+                <circle id="Oval-5-Copy" stroke="#FFFFFF" cx="18" cy="14" r="14"></circle>
+                <circle id="Oval-9" fill="#FFFFFF" cx="31.5" cy="10.5" r="1.5"></circle>
+                <circle id="Oval-9-Copy" fill="#FFFFFF" cx="1.5" cy="19.5" r="1.5"></circle>
+                <text id="W" font-family="Avenir-Heavy, Avenir" font-size="14" font-weight="600" fill="#FFFFFF">
+                    <tspan x="10" y="21">W</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

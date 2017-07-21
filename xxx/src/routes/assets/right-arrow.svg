@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>右箭头-可点击</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="切片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="右箭头-可点击" stroke="#666666">
+            <polyline id="Rectangle-2" transform="translate(3.500000, 6.000000) rotate(-90.000000) translate(-3.500000, -6.000000) " points="8.5 3.5 3.5 8.5 -1.5 3.5"></polyline>
+        </g>
+    </g>
+</svg>
