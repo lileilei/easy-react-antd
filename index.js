@@ -28,7 +28,7 @@ if (argv.cli) {
     var dest = path.resolve(process.cwd(), argv.cli)
 
     function init() {
-        fse.copy('./cli', dest)
+        fse.copy(path.resolve(__dirname, 'cli'), dest)
             .then(() => {
                 process.chdir(dest)
                 runCmd(process.platform === 'win32' ? 'npm.cmd' : 'npm', ['install'])
