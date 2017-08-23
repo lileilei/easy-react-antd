@@ -1,12 +1,14 @@
 ```bash
-°²×°È«¾ÖÃüÁî
-$ npm install -g  »òÕß ÔËĞĞ install.bat
-new Ò»¸öĞÂÏîÄ¿£¬Ãû³ÆÎªbenny
+å®‰è£…å…¨å±€å‘½ä»¤
+$ npm install -g  æˆ–è€… è¿è¡Œ install.bat
+new ä¸€ä¸ªæ–°é¡¹ç›®ï¼Œåç§°ä¸ºbenny
 $ coder --cli benny
-ÔÚµ±Ç°Ä¿Â¼Éú³ÉÄ£¿éÃûÎªname1ºÍname2µÄÄ£¿é
-$ coder name1 name2
-ÔÚsrc/routes Ä¿Â¼ÏÂĞÂ½¨ÏîÄ¿Ä£¿éµØÍ¼ÎÄµµÀıÈç project.js
+åœ¨src/routes ç›®å½•ä¸‹æ–°å»ºé¡¹ç›®æ¨¡å—åœ°å›¾æ–‡æ¡£ä¾‹å¦‚ project.js
 $ coder --file project.js
+åœ¨å½“å‰ç›®å½•ç”Ÿæˆæ¨¡å—åä¸ºname1å’Œname2çš„æ¨¡å—
+$ coder name1 name2
+ä¸ºå½“å‰ç›®å½•ä¸‹çš„actionå’Œreducersæ·»åŠ  HOME_LIST_GET æ–¹æ³•
+$ coder --action HOME_LIST_GET 
 ```
 
 
@@ -14,7 +16,7 @@ $ coder --file project.js
 //project.js
 
 module.exports = {
-    project: 'dcms',//ÏîÄ¿¸ùÄ¿Â¼Ãû
+    project: 'dcms',//é¡¹ç›®æ ¹ç›®å½•å
     server: {
         children: {
             module1: {},
